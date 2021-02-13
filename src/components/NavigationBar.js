@@ -9,7 +9,7 @@ import {
     Container
   } from 'reactstrap';
   import {Link} from '@reach/router';
-  import './createtask.css'
+  import './create.css'
 
 class Navigation extends Component {
     constructor(props){
@@ -29,7 +29,7 @@ class Navigation extends Component {
             <div>
               <Navbar color="light" light expand="sm" className="mb-5">
                     <Container>
-                        <NavbarBrand href="/">Truexam</NavbarBrand>
+                        <NavbarBrand href="/">Image</NavbarBrand>
                         <NavbarToggler onClick={this.toggle}></NavbarToggler>
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="ml-auto" navbar>

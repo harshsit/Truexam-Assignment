@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container,Row, Col, Input,FormFeedback,Button  } from 'reactstrap';
 import validator from './validator';
 import { Alert } from 'reactstrap';
-import './createtask.css'
+import './create.css'
 
 let imageList = [];
 class CreateTask extends Component {
@@ -19,7 +19,7 @@ class CreateTask extends Component {
                 nameCheck:'',
                 descriptionCheck:'',
                 notesCheck:'',
-              }
+            }
         }
     }
     changeHandler(event){

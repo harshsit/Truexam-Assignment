@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
 import { Router } from "@reach/router";
-import Navigation from './components/Navigation';
-import CreateTask from './components/CreateTask';
-import ScoreTask from './components/ScoreTask'
+import NavigationBar from './components/NavigationBar';
+import Create from './components/Create';
+import Score from './components/Score'
 
 
 function App() {
   return (
     <div className="App">
-      <Navigation/>
+      <NavigationBar/>
       <Router>
-        <CreateTask path='/'/>
-        <ScoreTask path='/scoretask'/>
+        <Create path='/'/>
+        <Score path='/scoretask'/>
 
       </Router>
     </div>
@@ -20,4 +20,5 @@ function App() {
 }
 
 export default App;
+
 

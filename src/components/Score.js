@@ -8,7 +8,7 @@ import {
     Input,
     Button
 } from 'reactstrap';
-import './scoretask.css';
+import './score.css';
 import { Alert } from 'reactstrap';
 
 

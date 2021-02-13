@@ -6,6 +6,8 @@
     transition: transform 0.45s;
 }
 
+
+
 .selected-image:hover{
     transform: scale(1.25);
 }
@@ -16,7 +18,7 @@
    
 }
 .links:hover{
-    color:gray;
+    color:rgb(31, 102, 119);
     
 }
 .links:active{
